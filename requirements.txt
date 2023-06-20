@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+yfinance
+tensorflow
+keras
+multitasking
+watchdog
+streamlit
+requests
+scikit-learn
+

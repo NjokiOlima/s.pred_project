@@ -1,0 +1,19 @@
+.ipynb_checkpoints
+
+# virtualenv
+trend_env
+venv
+virtualenv
+
+# VARIABLES
+.env
+
+.DS_Store
+.thumbs.db
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
