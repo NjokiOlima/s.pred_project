@@ -5,10 +5,10 @@
 branch name: exercise-BRANCH
 
 2. Create a new file: **exercise.txt**
+3. Add the following as the file content
 ```
 I am a git master
 ```
-- Above as the file content
-- Add and commit new changes
-- Push new branch to remote server (**github**)
+4. Add and commit new changes
+5. Push new branch to remote server (**github**)
 

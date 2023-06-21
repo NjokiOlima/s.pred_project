@@ -12,16 +12,14 @@
 
 Run the following commands to start the application.
 
-Download and install Anaconda from here
-
-[Anaconda](https://www.anaconda.com/download#downloads)
+Download and install Anaconda from here [Anaconda](https://www.anaconda.com/download#downloads)
 
 Install Jupyter with anaconda from here [Jupyter Anaconda Intall](https://anaconda.org/anaconda/jupyter)
 
 Or here [Jupyter Pip Install](https://jupyter.org/install)
 
 
-Create new environment called 'trend_env'.
+Create new environment called '**trend_env**'.
 Open the terminal and navigate to the root directory of this project, type the following:
 
 #### `python3 -m venv trend_env`

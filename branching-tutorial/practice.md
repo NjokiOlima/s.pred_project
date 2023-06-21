@@ -11,7 +11,7 @@
 ```
 git version
 ```
-- If git version number is returned, then you are good to the next step, else follow this link [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to install git on your PC
+- If git version number is returned, then you are good to go to the next step, else follow this link [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to install git on your PC
 - Initialize a Git repository: 
 ```
 git init -b master
@@ -33,14 +33,17 @@ git commit -m "initial commit"
 ```
 - Create a new **private** github repo here: - [Github new repo](https://github.com/new) Don't initialize with a **README** or **.gitignore** files
 - At the top of your repository on GitHub.com's Quick Setup page, copy the remote repository URL.
-- On the same terminal/git bash, add the URL for the remote repository where your local repository will be pushed.
+- Go back to your terminal/git bash, add the URL for the remote repository where your local repository will be pushed.
 ```
 git remote add origin <REMOTE_URL>
+```
+- Replace **<REMOTE_URL>** with the remote repository URL you copied from github
+```
 git remote -v
+```
+```
 git push -u origin master
 ```
-- Run the above comands one at a time
-
 - Show all branches by running the following command. As of now you should have only one branch: **master**
 ```
 git branch -a
@@ -51,8 +54,9 @@ git checkout master
 ```
 - Create a local branch
 ```
-git checkout -b new-BRANCH master # This command will create a new branch and switch to that branch
+git checkout -b new-BRANCH master
 ```
+- Above command will create a new branch and switch to that branch
 - Create a file in the new branch and name it as **practice.txt**
 - Save the following in the file
 ```
