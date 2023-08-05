@@ -17,3 +17,7 @@ virtualenv
 *.ntvs*
 *.njsproj
 *.sln
+
+
+avi.ipynb
+avi_lstm_model
